@@ -1,0 +1,30 @@
+.slider{
+	width: 2500px;
+	height: 500px;
+	background: url("s1.jpg") no-repeat;
+	margin: 100px auto;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 350px;
+	animation: slide 20s infinite;
+}
+
+@keyframes slide{
+
+	25%{
+		background: url("s2.jpg") no-repeat;
+
+	}
+	50%{
+		background: url("s3.jpg")no-repeat;
+
+	}
+	75%{
+		background: url("s4.jpg")no-repeat;
+
+	}
+	100%{
+		background: url("s1.jpg")no-repeat;
+
+	}
+}

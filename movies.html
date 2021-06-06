@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movies</title>
+	<link rel="stylesheet" type="text/css" href="global.css">
+	
+	<style type="text/css">
+		
+		.container{
+			width: 90%;
+			padding: 20px;
+			margin: 100px auto;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+
+		.box{
+			width: 250px;
+			margin: 0 10px;
+			box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+		}
+
+		.box img{
+			display: block;
+			width: 100%;
+			border-radius: 5px;
+		}
+
+		.box:hover{
+			transform:scale(1.3);
+			z-index: 2;
+		}
+
+		.m1{
+			border: 0px;
+			width: 650px;
+			height: 450px;
+		}
+
+		.more{
+			margin-top: 50px;
+			border: 1px solid #800000;
+			width: 230px;
+			height: 280px;
+			border-radius: 5px;
+		}
+		h3{
+			color: #800000;
+			text-decoration: .5px underline #800000;
+			text-align: center;
+			font-size: 35px;
+			margin-top: 120px;
+			font-family: FreeMono, monospace;
+		}
+
+	</style>
+</head>
+<body>
+
+<header>
+<img src="logo.jpg">
+
+<nav>
+	<a href="home.html">Home</a>
+	<a href="story.html">Our Story</a>
+	<a href="movies.html">Movies</a>
+	<a href="news.html">News</a>
+	<a href="contact.html">Connect</a>
+
+</nav>
+</header>
+
+<div class="container">
+	<div class="box">
+			<img class="m1" src="mov1.jpg">
+		</div>
+	<div class="box">
+		<img class="m1" src="mov2.jpg">
+	</div>
+	<div class="box">
+		<img class="m1" src="mov3.jpg">
+	</div>
+	<div class="box">
+		<img class="m1" src="mov4.jpg">
+	</div>
+	<div class="box">
+		<div class="more">
+			<h3>more >></h3>
+	</div>
+</div>
+</div>
+<footer>
+	<pre><p class="last"> Disclaimer     Privacy Policy   Terms&Conditions</p></pre>  
+	<pre><p class="last1">Join Us on Facebook    Join Us on Twitter     Join Us on Instagram</p></pre>  
+</footer>
+
+
+</body>
+</html>
